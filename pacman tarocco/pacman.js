@@ -1,5 +1,4 @@
-// pacman.js
-export let pacman = {
+export const pacman = {
     x: 0,
     y: 0,
     dir: 'right'
@@ -46,4 +45,3 @@ export let pacman = {
       pacman.y = newY;
     }
   }
-  
